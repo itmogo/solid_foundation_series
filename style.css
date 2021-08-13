@@ -1,0 +1,126 @@
+
+.navhome  > li{
+  text-align: center;
+  margin-left: 50px;
+}
+
+.navul{
+  margin-left: 80px;
+}
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: transform 0.7s;
+    width: 100%;
+    margin-right: 50px;     
+  }
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #00000033;    
+    -ms-transform: scale(0.95); /* IE 9 */
+    -webkit-transform: scale(0.95); /* Safari 3-8 */
+    transform: scale(0.95);      
+  }
+
+  .card-body > p {
+    font-size: small;
+  }
+  .card > img{
+   height: 30vh; 
+  }
+  
+  .banner > p{
+      text-align: center;
+      text-transform: capitalize;
+      font-size: larger;
+      color: white;
+    }
+  
+  .background{
+      background-repeat: no-repeat;      
+      background-size: cover;
+      width: 100%;
+      padding: 0px 0px;      
+  }
+  .bmain{
+    text-align: center;
+  margin-bottom: 40px;  
+  border: 1px solid black;
+  position: sticky;
+  z-index: 1;
+  top: 1px;
+  width: 100%;
+  }
+
+  .card-body{
+    text-align: center;
+  }
+ 
+  /*back to top button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: pink;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: rgb(253, 143, 17);
+}
+
+.sectLinks{
+  padding-top: 10px;
+}
+
+/*media query*/
+
+
+/* shs 1 css*/
+
+/*About us*/
+.about-us{
+  text-align: center;
+  border: #00000033;
+}
+h3{
+  text-align: center;
+}
+
+h3 > p{
+  text-align: justify; 
+}
+
+.sect{
+    box-shadow: 0 2px 8px 0 #00000033;    
+    -ms-transform: scale(0.95); /* IE 9 */
+    -webkit-transform: scale(0.95); /* Safari 3-8 */
+    transform: scale(0.95);   
+}
+.preface{
+  text-align: center;
+  border:rgb(40, 124, 58);
+  }
+
+body{
+  background-color: #f9f9f9;
+  font-family: Noto Sansi;
+  color: #636363;
+  text-align: justify;
+}
+
+ h3{
+  margin-top: -18px;
+  text-transform: uppercase;
+}
+
+
