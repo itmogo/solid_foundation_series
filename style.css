@@ -29,6 +29,12 @@
   .card > img{
    height: 30vh; 
   }
+  .card-footer{
+    text-align: center;
+    }
+    h6{
+      font-size: smaller;
+    }
   
   .banner > p{
       text-align: center;
