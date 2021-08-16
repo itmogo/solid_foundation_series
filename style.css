@@ -1,5 +1,8 @@
 
-
+.navhome  > li{
+  
+  padding-right: 50px;
+}
 
 .navul{
   margin-left: 80px;
