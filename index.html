@@ -71,8 +71,8 @@
            
           </ul>
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
+            <input class="form-control me-2"  id="searchbar"    type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" onclick="search_book()"  type="submit">Search</button>
           </form>
         </div>
       </div>
@@ -167,6 +167,7 @@
 
          
     <!--container for books in rows of -->
+    <div id="list">
     <div class="container">
       <div class="row">             
     <div class="card-group">
@@ -174,8 +175,10 @@
         <div class="card">
         <img src="/images/math3.jpg" class="card-img-top" alt="maths" class="img-responsive">
         <div class="card-body">
-          <h5 class="card-title"><a href="shs1_maths.html" target="_blank">SHS-1</a></h5>
-          <p class="card-text">MATHEMATICS</p>
+          <h5 class="card-title books">
+            <a href="shs1_maths.html" target="_blank" class="books">SHS-1</a>
+          </h5>
+          <p class="card-text books">MATHEMATICS</p>
         </div> 
          <div class="card-footer">
            <h6>Price of Complete Package</h6>
@@ -389,7 +392,7 @@
         <div class="card">
           <img src="/images/mech.jpg" class="card-img-top" alt="physics" class="img-responsive">
           <div class="card-body">
-            <h5 class="card-title"><a href="shs3_Phy_MEV1.html" target="_blank">SHS-3</a></h5>
+            <h5 class="card-title"><a href="shs3_Phy_MHV1.html" target="_blank">SHS-3</a></h5>
             <p class="card-text">PHYSICS [MECHANICS & HEAT]-VOL 1</p></div>
             <div class="card-footer">
               <h6>Price of Complete Package</h6>
@@ -448,7 +451,7 @@
         <div class="card">
           <img src="/images/core3.jpg" class="card-img-top" alt="maths" class="img-responsive">
           <div class="card-body">
-            <h5 class="card-title"><a href="shs3_mathsV2.html" target="_blank"yarn>SHS-3</a></h5>
+            <h5 class="card-title"><a href="shs3_mathsV2.html" target="_blank">SHS-3</a></h5>
             <p class="card-text">MATHEMATICS - VOL 2</p></div>
             <div class="card-footer">
               <h6>Price of Complete Package</h6>
@@ -460,11 +463,14 @@
         </div> 
         </div>        
         <br />                      
-                                  
+                            
     </div><!--end of book container-->
     <!--empty column-->
     <div> <br /> <br /></div>
     
+ <!--script for search bar linking javascript-->
+ <script src="./books.js"></script>
+
     <!--footer-->
       
 <footer class="text-center text-lg-start bg-light text-muted" style="background-color: rgba(14, 13, 13, 0.918);">
@@ -582,6 +588,12 @@
     </div>
   </section>
   <!-- Section: Links  -->
+
+ 
+
+
+
+
 
   <!-- Copyright -->
   <div class="text-center p-4" style="background-color: rgba(15, 14, 14, 0.986);">
