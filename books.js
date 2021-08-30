@@ -10,7 +10,7 @@ function search_book(){
                 x[i].style.display="none";
         }
         else {
-            x[i].style.display="";
+            x[i].style.display="k0";
         }
     }
 } 
