@@ -37,11 +37,14 @@
       font-size: smaller;
     }
   
-  .banner > p{
+  .banner > p {
       text-align: center;
       text-transform: capitalize;
-      font-size: larger;
-      color: white;
+      font-size: larger;     
+    }    
+    marquee > p {
+      margin-top:10px;
+      color:white;  
     }
   
   .background{
@@ -128,6 +131,20 @@ body{
  h3{
   margin-top: -18px;
   text-transform: uppercase;
+}
+
+/*amount*/
+.card-footer{
+  color:rgb(28, 14, 155)
+}
+
+h6{
+  text-transform: uppercase;
+  font-size: x-small;
+}
+h6:hover{
+  color:gray;
+  font-size: smaller;
 }
 
 
