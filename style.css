@@ -1,4 +1,7 @@
 
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .navhome  > li{
   
   padding-right: 50px;
@@ -8,22 +11,18 @@
 .navul{
   margin-left: 80px;
 }
-
-
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: transform 0.7s;
     width: 100%;
     margin-right: 50px;     
   }
-
 .card:hover {
     box-shadow: 0 8px 16px 0 #00000033;    
     -ms-transform: scale(0.95); /* IE 9 */
     -webkit-transform: scale(0.95); /* Safari 3-8 */
     transform: scale(0.95);      
   }
-
   .card-body > p {
     font-size: small;
   }
@@ -45,8 +44,7 @@
     marquee > p {
       margin-top:10px;
       color:white;  
-    }
-  
+    }  
   .background{
       background-repeat: no-repeat;      
       background-size: cover;
@@ -150,14 +148,16 @@ h6:hover{
 .contact{
   text-align: center;
   font-size: large;
-  padding: 10px;
+  
+  margin-top: 50px;
   text-transform: uppercase;
 }
 
 .form{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
   padding: 20px;
-  
+    
 }
+
 
 
