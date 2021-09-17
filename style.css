@@ -147,16 +147,17 @@ h6:hover{
 
 .contact{
   text-align: center;
-  font-size: large;
-  
+  font-size: large;  
   margin-top: 50px;
   text-transform: uppercase;
 }
-
 .form{
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
-  padding: 20px;
-    
+  padding: 20px;    
+}
+.frame {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 
