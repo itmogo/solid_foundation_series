@@ -138,10 +138,10 @@ body{
 
 h6{
   text-transform: uppercase;
-  font-size: x-small;
+  font-size: small;
 }
 h6:hover{
-  color:gray;
+  color:rgb(204, 190, 190);
   font-size: smaller;
 }
 
@@ -173,4 +173,5 @@ h6:hover{
 .listsize{
   font-size: 15px;
 }
+
 
