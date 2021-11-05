@@ -2,6 +2,7 @@
 body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
 .navhome  > li{
   
   padding-right: 50px;
@@ -174,4 +175,6 @@ h6:hover{
   font-size: 15px;
 }
 
+/* tutorial heading*/
+/*  */
 
