@@ -138,13 +138,40 @@ body{
 }
 
 h6{
+  color:rgb(245, 219, 132);
   text-transform: uppercase;
   font-size: small;
 }
-h6:hover{
-  color:rgb(204, 190, 190);
+ 
+ h6:hover{
+  color:rgb(5, 2, 22);
   font-size: smaller;
 }
+.gold .contact {
+  color:rgb(245, 219, 132);
+}
+.fond{
+  color:rgb(245, 219, 132);
+}
+.for > h5{  
+  color:navy;
+  text-transform: uppercase;
+  font-weight:bold;
+  box-shadow: 0 5px 0px 0px #0757ec2a;
+  border-radius: 5px;
+  font-size: medium;
+  
+}
+
+h5:hover{
+  font-size: small;
+  color:rgb(32, 60, 218);
+}
+.tuthead{
+  font-size: large;
+  font-weight: bold;
+}
+
 
 .contact{
   text-align: center;
@@ -178,3 +205,13 @@ h6:hover{
 /* tutorial heading*/
 /*  */
 
+/*tutorial heading*/
+
+p{
+  font-size: small;
+}
+
+h2 > .shadow{
+  box-shadow: 0 5px 10px 0px #fff;
+
+}
